@@ -1,0 +1,1 @@
+// ["localhost","localhost"].includes(window.location.hostname)||(window.location.href="https://www.dearxuan.com/"),window.ondragstart=function(n){return!1},window.oncontextmenu=function(n){return n.preventDefault(),!1},window.addEventListener("keydown",n=>{n.defaultPrevented||("F12"===n.key||n.ctrlKey&&"u"===n.key)&&n.preventDefault()}),console.log=n=>{};

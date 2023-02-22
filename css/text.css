@@ -1,0 +1,23 @@
+.text {
+    font-size: 60px;
+    width: fit-content;
+    margin: 0 auto;
+    white-space: nowrap
+}
+
+.text span {
+    transition: .5s
+}
+
+.text:hover span:nth-child(1) {
+    margin-right: 10px
+}
+
+.text:hover span:nth-child(2) {
+    margin-left: 10px
+}
+
+.text:hover span {
+    color: #fff;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff, 0 0 80px #fff, 0 0 120px #fff, 0 0 160px #fff
+}
